@@ -1,0 +1,2 @@
+# cleanwiki
+ cleans the wiki
