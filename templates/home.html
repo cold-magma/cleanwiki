@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CleanWiki</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div class="content">
+		<h1>Clean your Wikipedia</h1>
+		<form method="POST" action="#">
+			<input class="inp_text" type="text" name="text_url" placeholder="Enter Wikipedia link">
+			<input class="submit" type="submit" name="submit" value="Clean">
+		</form>
+	</div>
+	<a href="https://github.com/cold-magma/cleanwiki">Github</a>
+</body>
+</html>
